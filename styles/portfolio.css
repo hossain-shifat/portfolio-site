@@ -11,6 +11,11 @@
 
 /* Primary */
 
+.line-height{
+    line-height: 30px;
+}
+
+
 .btn{
     background: #FD6E0A;
     font-family: "Open Sans";
@@ -28,12 +33,13 @@
     font-family: "Open Sans";
 }
 /* main */
-main{
+main section{
     margin: 130px 230px;
 }
 
 .dark-3{
     color: #757575;
+    font-size: 16px;
 }
 
 
@@ -43,7 +49,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 25px 230px 25px 160px;
+    margin: 25px 200px 25px 160px;
 }
 
 /* nav items */
@@ -109,9 +115,9 @@ nav{
     font-weight: bold;
 }
 .banner-description{
-    line-height: 30px;
     font-size: 18px;
     height: 60px;
+    padding-bottom: 30px;
 }
 
 
@@ -164,4 +170,48 @@ nav{
     font-weight: bold;
     font-size: 18px;
     color: #474747;
+}
+
+
+/* what i do section */
+
+
+.wid-container{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 24px;
+}
+
+
+
+.wid-detail{
+    display: grid;
+    text-align: center;
+    max-width: 909px;
+}
+.wid-description{
+    margin: 30px 56px 50px 56px;
+}
+
+.wid-card{
+    width: 267px;
+    height: 377px;
+    border-radius: 5px;
+    /* border: 1px solid #fff; */
+}
+.wid-card img{
+    margin: 30px;
+}
+.wid-detail-card{
+    width: 204px;
+    height: 243px;
+    margin: 0px 33px 30px 30px;
+    /* border: 1px solid #fff; */
+}
+
+.wid-detail-title{
+    padding: 0px 30px 20px 0px;
+}
+.wid-detail-detail{
+    line-height: 28px;
 }
